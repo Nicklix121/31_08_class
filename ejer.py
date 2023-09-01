@@ -6,5 +6,6 @@ desea saber cuánto deberá pagar finalmente por su compra.
 
 compra = int(input("Ingrese el total de su compra, para apricarle el descuento:  "))
 descuento = 0.15
-p_realizar = int((compra * descuento) + compra)
+p_realizar = int(compra * descuento)
+p_realizar = compra - p_realizar
 print("su compra mas el descuento es de:" , p_realizar)
