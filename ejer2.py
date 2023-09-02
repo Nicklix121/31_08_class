@@ -8,6 +8,6 @@ su sueldo base y comisiones.
 
 sueldo_n = int(input("ingresar sueldo fijo: "))
 Bono = 0.1 + 0.1 + 0.1
-pago_mes = sueldo_n * Bono
+pago_mes = (sueldo_n * Bono) + sueldo_n
 pago_mes = int(pago_mes)
-print("su sueldo mas los bono seria un total de" , pago_mes)
+print("su sueldo, mas los bono seria un total de" , pago_mes)
